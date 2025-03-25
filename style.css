@@ -1,0 +1,17 @@
+body {
+     
+    background-size: cover; /* Cubre toda la ventana */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    cursor: url('assets/images/a.cur'); /* Puntero personalizado */
+    /* Opcional: Puedes agregar un color de fondo sólido para que se vea mientras carga la imagen */
+    background-color: #ffffff;
+}
+
+
+
+main .col-md-9 {
+    display: flex; /* Para centrar el canvas si lo deseas */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente (opcional) */
+}
